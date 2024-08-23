@@ -1,21 +1,15 @@
 package com.my;
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
 public class ResponseErrorBody {
     private String message;
 
-    public ResponseErrorBody(String message) {
-        this.message = message;
-    }
-
-
-    public ResponseErrorBody() {
-    }
-
-    public String getMessage() {
-        return message;
-    }
-
-    public void setMessage(String message) {
-        this.message = message;
-    }
 }

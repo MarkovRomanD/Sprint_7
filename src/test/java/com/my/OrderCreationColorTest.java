@@ -1,4 +1,4 @@
-package com.my.paramTests;
+package com.my;
 
 import com.my.client.OrdersClient;
 import com.my.generator.OrderGenerator;

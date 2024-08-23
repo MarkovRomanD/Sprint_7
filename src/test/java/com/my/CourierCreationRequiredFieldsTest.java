@@ -1,6 +1,5 @@
-package com.my.paramTests;
+package com.my;
 
-import com.my.Courier;
 import com.my.client.CourierClient;
 import io.qameta.allure.junit4.DisplayName;
 import io.restassured.response.Response;
